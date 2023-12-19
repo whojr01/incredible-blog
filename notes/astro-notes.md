@@ -42,3 +42,11 @@ When the prompt asks, “Would you like to initialize a new git repository?” t
 `git remote add origin https://github.com/whojr01/incredible-blog.git`
 `git branch -M main`
 `git push -u origin main`
+
+## Deploying to Netify
+
+Site URL: whojr.netify.app
+
+## Adding pages
+
+Add toplevel pages to the /src/pages
