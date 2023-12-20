@@ -64,18 +64,20 @@ Partials are page components located within src/pages/ that are not intended to 
 
 Like components located outside of this folder, these files do not automatically include the <!DOCTYPE html> declaration, nor any <head> content such as scoped styles and scripts.
 
-## Astro routing
+## Astro References
 
 [Astro Routing](https://docs.astro.build/en/core-concepts/astro-pages/#file-based-routing)
 
-## Markdown Cheat Sheet
-
 [Markdown Cheat Sheet from The Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
-
-## Firefox Devtool docs
 
 [Fire Fox Devtools Docs](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools)
 
-## YAML Frontmatter
-
 [YAML Frontmatter](https://assemble.io/docs/YAML-front-matter.html)
+
+[Dynamic Expressions in Astro](https://docs.astro.build/en/core-concepts/astro-syntax/#jsx-like-expressions)
+
+[Astro syntax vs JSX - comparision](https://docs.astro.build/en/core-concepts/astro-syntax/#differences-between-astro-and-jsx)
+
+[Astro `<style>` tag](https://docs.astro.build/en/guides/styling/#styling-in-astro)
+
+[CSS variables in Astro](https://docs.astro.build/en/guides/styling/#css-variables)
