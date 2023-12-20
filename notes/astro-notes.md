@@ -49,4 +49,33 @@ Site URL: whojr.netify.app
 
 ## Adding pages
 
-Add toplevel pages to the /src/pages
+[Astro Pages](https://docs.astro.build/en/core-concepts/astro-pages/#astro-pages)
+
+Astro leverages a routing strategy called file-based routing. Each file in your `src/pages/` directory becomes an endpoint on your site based on its file path.
+
+Link between pagesSection titled Link between pages
+Write standard HTML <a> elements in your Astro pages to link to other pages on your site. Use a URL path relative to your root domain as your link, not a relative file path.
+
+For example, to link to https://example.com/authors/sonali/ from any other page on example.com:
+
+Read more <a href="/authors/sonali/">about Sonali</a>.
+
+Partials are page components located within src/pages/ that are not intended to render as full pages.
+
+Like components located outside of this folder, these files do not automatically include the <!DOCTYPE html> declaration, nor any <head> content such as scoped styles and scripts.
+
+## Astro routing
+
+[Astro Routing](https://docs.astro.build/en/core-concepts/astro-pages/#file-based-routing)
+
+## Markdown Cheat Sheet
+
+[Markdown Cheat Sheet from The Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+
+## Firefox Devtool docs
+
+[Fire Fox Devtools Docs](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools)
+
+## YAML Frontmatter
+
+[YAML Frontmatter](https://assemble.io/docs/YAML-front-matter.html)

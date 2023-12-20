@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "Jibberish Musings";
 ---
 
 <html lang="en">
@@ -8,13 +8,18 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Blog</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/blog">Blog</a>
-    <h1>Bill's Incredible blog</h1>
+    <h1>{pageTitle}</h1>
     <p>Here you will find incredible things</p>
+    <ul>
+      <li><a href="/posts/post-1">The world according to Astro</a></li>
+      <li><a href="/posts/post-2">The week according to Astro</a></li>
+      <li><a href="/posts/post-3">The building according to Astro</a></li>
+    </ul>
   </body>
 </html>

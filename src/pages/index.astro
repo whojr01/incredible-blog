@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "Bill's Incredible Blog Home";
 ---
 
 <html lang="en">
@@ -8,12 +8,19 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/blog">Blog</a>
-    <h1>Bill's Incredible blog</h1>
+    <h1>{pageTitle}</h1>
+    <p>
+      Here you will find the most incredible things in the whole wide world.
+    </p>
+    <p>
+      Whether you understand the jibberish is another story but you will find it
+      here.
+    </p>
   </body>
 </html>
