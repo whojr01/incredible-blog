@@ -81,3 +81,17 @@ Like components located outside of this folder, these files do not automatically
 [Astro `<style>` tag](https://docs.astro.build/en/guides/styling/#styling-in-astro)
 
 [CSS variables in Astro](https://docs.astro.build/en/guides/styling/#css-variables)
+
+[Astro Component Overview](https://docs.astro.build/en/core-concepts/astro-components/)
+
+[Refactoring](https://refactoring.com/)
+
+[Component Props in Astro](https://docs.astro.build/en/core-concepts/astro-components/#component-props)
+
+[Component-based Design](https://www.droptica.com/blog/component-based-design/)
+
+[Semantic HTML Tags](https://www.dofactory.com/html/semantics)
+
+[Mobile-first Design](https://www.mobileapps.com/blog/mobile-first-design)
+
+[Client-side scripts in Astro](https://docs.astro.build/en/guides/client-side-scripts/)
