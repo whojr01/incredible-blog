@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/bloglayout.astro
 title: "My First Blog Post"
 pubDate: 2022-07-01
 description: "This is the first post of my new Astro blog."
@@ -8,8 +9,6 @@ image:
   alt: "The full Astro logo."
 tags: ["astro", "blogging", "learning in public"]
 ---
-
-[Home](/) [About](/about) [blog](/blog)
 
 # The world according to Astro
 

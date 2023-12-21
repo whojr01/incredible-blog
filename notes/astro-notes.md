@@ -95,3 +95,15 @@ Like components located outside of this folder, these files do not automatically
 [Mobile-first Design](https://www.mobileapps.com/blog/mobile-first-design)
 
 [Client-side scripts in Astro](https://docs.astro.build/en/guides/client-side-scripts/)
+
+[Astro layout components](https://docs.astro.build/en/core-concepts/layouts/)
+
+[Astro `<slot />`](https://docs.astro.build/en/core-concepts/astro-components/#slots)
+
+[Markdown Layouts in Astro](https://docs.astro.build/en/guides/markdown-content/#frontmatter-layout)
+
+[Markdown Layout Props](https://docs.astro.build/en/core-concepts/layouts/#markdown-layout-props)
+
+[Introduction to YAML](https://dev.to/paulasantamaria/introduction-to-yaml-125f)
+
+[Nesting Layouts in Astro](https://docs.astro.build/en/core-concepts/layouts/#nesting-layouts)

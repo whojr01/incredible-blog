@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Bloglayout.astro
 title: My Third Blog Post
 author: Astro Learner
 description: "I had some challenges, but asking in the community really helped!"
@@ -8,8 +9,6 @@ image:
 pubDate: 2022-07-15
 tags: ["astro", "learning in public", "setbacks", "community"]
 ---
-
-[Home](/) [About](/about) [blog](/blog)
 
 # The building according to Astro
 

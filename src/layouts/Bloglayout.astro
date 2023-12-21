@@ -1,0 +1,36 @@
+---
+import Baselayout from "./Baselayout.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<Baselayout pageTitle={frontmatter.title}>
+  <p>Written by {frontmatter.author}</p>
+  <p>Published on: {frontmatter.pubDate.slice(0, 10)}</p>
+
+  <div class="breadcrumb">
+    <span>Breadcrumbs:</span>
+    <a href="../">Home /</a>
+    <a href="/blog">Blog /</a>
+    <span>{frontmatter.title}</span>
+  </div>
+
+  <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
+  <slot />
+</Baselayout>
+
+<style>
+  a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .breadcrumb {
+    margin-bottom: 1rem;
+  }
+</style>

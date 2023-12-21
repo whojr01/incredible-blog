@@ -1,5 +1,6 @@
 ---
-title: My Second Blog Post
+layout: ../../layouts/Bloglayout.astro
+title: My second blog post
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image:
@@ -8,8 +9,6 @@ image:
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
-
-[Home](/) [About](/about) [blog](/blog)
 
 # The week according to Astro
 
