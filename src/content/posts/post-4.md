@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/Bloglayout.astro
 title: My Forth Blog Post
 author: Astro Learner
 description: "I had some challenges, but banging my head against the wall really helped!"
