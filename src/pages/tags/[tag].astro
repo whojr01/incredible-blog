@@ -49,7 +49,7 @@ const { posts } = Astro.props;
       //   <Blogpost url={posts.url} title={post.frontmatter.title} />
       // ))
       posts.map((post) => (
-        <Blogpost url={posts.url} title={post.frontmatter.title} />
+        <Blogpost url={post.url} title={post.frontmatter.title} />
       ))
     }
   </ul>
