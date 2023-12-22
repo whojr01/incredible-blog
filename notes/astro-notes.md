@@ -72,7 +72,33 @@ Like components located outside of this folder, these files do not automatically
 
 [Using Git Source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview#_git-support)
 
-[Astro Routing](https://docs.astro.build/en/core-concepts/astro-pages/#file-based-routing)
+[A step-by-step guide to deploying on Netify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
+
+### Unit 2: Pages
+
+- Create your first Astro pages with the .astro syntax
+- Add blog posts with Markdown (.md) files
+- Style an individual page with `<style>`
+- Apply global styles across pages
+
+#### [Create your first Astro page](https://docs.astro.build/en/tutorial/2-pages/1/)
+
+- Create a new .astro file
+- Edit your page
+- Add navigation links
+- Try it yourself
+- Add a Blog page
+- Publish your changes to the web
+
+[File-based Routine in Astro](https://docs.astro.build/en/core-concepts/astro-pages/#file-based-routing)
+
+[Astro Page HTML](https://docs.astro.build/en/core-concepts/astro-pages/#astro-pages)
+
+#### [Write your first Markdown Blog Post](https://docs.astro.build/en/tutorial/2-pages/2/)
+
+- Create your first .md file
+- Write Markdown content
+- Link to your posts
 
 [Markdown Cheat Sheet from The Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 
@@ -80,7 +106,19 @@ Like components located outside of this folder, these files do not automatically
 
 [YAML Frontmatter](https://assemble.io/docs/YAML-front-matter.html)
 
+#### [Add dynamic content about you](https://docs.astro.build/en/tutorial/2-pages/3/)
+
+- Define and use a variable
+- Write JavaScript expressions in Astro
+- Conditionally render elements
+
 [Dynamic Expressions in Astro](https://docs.astro.build/en/core-concepts/astro-syntax/#jsx-like-expressions)
+
+#### [Style your about page](https://docs.astro.build/en/tutorial/2-pages/4/)
+
+- Style an individual page
+- Use your first CSS variable
+- Try it yourself - Define CSS variables
 
 [Astro syntax vs JSX - comparision](https://docs.astro.build/en/core-concepts/astro-syntax/#differences-between-astro-and-jsx)
 
@@ -88,11 +126,38 @@ Like components located outside of this folder, these files do not automatically
 
 [CSS variables in Astro](https://docs.astro.build/en/guides/styling/#css-variables)
 
+#### [Add site-wide styling](https://docs.astro.build/en/tutorial/2-pages/5/)
+
+### Unit 3: Components
+
+- A Navigation component that presents a menu of links to your pages
+- A Footer component to include at the bottom of each page
+- A Social Media component, used in the Footer, that links to profile pages
+- An interactive Hamburger component to toggle the Navigation on mobile
+
+#### [Make a reusable Navigation component](https://docs.astro.build/en/tutorial/3-components/1/)
+
+- Create a new src/components/ folder
+- Create a Navigation component
+
 [Astro Component Overview](https://docs.astro.build/en/core-concepts/astro-components/)
 
 [Refactoring](https://refactoring.com/)
 
+#### [Create a social media footer](https://docs.astro.build/en/tutorial/3-components/2/)
+
+- Create a Footer Component
+- Try it yourself - Personalize your footer
+- Create a Social Media component
+- Style your Social Media Component
+
 [Component Props in Astro](https://docs.astro.build/en/core-concepts/astro-components/#component-props)
+
+#### [Build it yourself - Header](https://docs.astro.build/en/tutorial/3-components/3/)
+
+- Try it yourself - Build a new Header component
+- Try it yourself - Update your pages
+- Add responsive styles
 
 [Component-based Design](https://www.droptica.com/blog/component-based-design/)
 
@@ -100,11 +165,35 @@ Like components located outside of this folder, these files do not automatically
 
 [Mobile-first Design](https://www.mobileapps.com/blog/mobile-first-design)
 
+#### [Send your first script to the browser](https://docs.astro.build/en/tutorial/3-components/4/)
+
+- Build a Hamburger component
+- Write your first script tag
+
 [Client-side scripts in Astro](https://docs.astro.build/en/guides/client-side-scripts/)
+
+### Unit 4 Layouts
+
+- Create reusable layout components
+- Pass content to your layouts with <slot />
+- Pass data from Markdown frontmatter to your layouts
+- Nest multiple layouts
+
+#### [Build your first layout](https://docs.astro.build/en/tutorial/4-layouts/1/)
+
+- Create your first layout component
+- Use your layout on a page
+- Pass page-specific values as props
+- Try it yourself - Use your layout everywhere
 
 [Astro layout components](https://docs.astro.build/en/core-concepts/layouts/)
 
 [Astro `<slot />`](https://docs.astro.build/en/core-concepts/astro-components/#slots)
+
+#### [Create and pass data to a custom blog layout](https://docs.astro.build/en/tutorial/4-layouts/2/)
+
+- Add a layout to your blog posts
+- Try it yourself - Customize your blog post layout
 
 [Markdown Layouts in Astro](https://docs.astro.build/en/guides/markdown-content/#frontmatter-layout)
 
@@ -112,22 +201,76 @@ Like components located outside of this folder, these files do not automatically
 
 [Introduction to YAML](https://dev.to/paulasantamaria/introduction-to-yaml-125f)
 
+#### [Combine layouts to get the best of both worlds](https://docs.astro.build/en/tutorial/4-layouts/3/)
+
+- Nest your two layouts
+
 [Nesting Layouts in Astro](https://docs.astro.build/en/core-concepts/layouts/#nesting-layouts)
 
+### Unit 5 - Astro API
+
+- Astro.glob() to access data from files in your project
+- getStaticPaths() to create multiple pages (routes) at once
+- The Astro RSS package to create an RSS feed
+
+#### [Create a blog post archive](https://docs.astro.build/en/tutorial/5-astro-api/1/)
+
+- Dynamically display a list of posts
+- Challenge: Create a BlogPost component
+
 [`Astro.glob()` API Documentation](https://docs.astro.build/en/reference/api-reference/#astroglob)
+
+#### [Generate tag pages](https://docs.astro.build/en/tutorial/5-astro-api/2/)
+
+- Dynamic page routing
+- Create pages dynamically
+- Use props in dynamic routes
+- Advanced JavaScript: Generate pages from existing tags
 
 [Dynamic Page Routine in Astro](https://docs.astro.build/en/core-concepts/routing/#dynamic-routes)
 
 [`getStaticPaths()` API Documentaiton](https://docs.astro.build/en/reference/api-reference/#getstaticpaths)
 
+#### [Build a tag index page](https://docs.astro.build/en/tutorial/5-astro-api/3/)
+
+- Use the /pages/folder/index.astro routing pattern
+- Try it yourself - Make a Tag Index page
+- Create an array of tags
+- Create your list of tags
+- Add styles to your tag list
+- Add this page to your navigation
+- Challenge: Include tags in your blog post layout
+
 [Static Routing in Astro](https://docs.astro.build/en/core-concepts/routing/#static-routes)
 
+#### [Add an RSS feed](https://docs.astro.build/en/tutorial/5-astro-api/4/)
+
+- Install Astro’s RSS package
+- Create an .xml feed document
+
 [RSS item generation in Astro](https://docs.astro.build/en/guides/rss/#using-glob-imports)
+
+### Unit 6 - Astro Islands
+
+- Add a UI framework, Preact, to your Astro project
+- Use Preact to create an interactive greeting component
+- Learn when you might not choose islands for interactivity
+
+#### [Build your first Astro island](https://docs.astro.build/en/tutorial/6-islands/1/)
+
+- Add Preact to your Astro project
+- Include a Preact greeting banner
 
 [Astro Integrations Guide](https://docs.astro.build/en/guides/integrations-guide/)
 
 [Using UI Framework Components in Astro](https://docs.astro.build/en/core-concepts/framework-components/#using-framework-components)
 
 [Astro client directives reference](https://docs.astro.build/en/reference/directives-reference/#client-directives)
+
+#### [Back on dry land. Take your blog from day to night, no island required!]
+
+- Add and style a theme toggle icon
+- Add CSS styling for a dark theme
+- Add client-side interactivity
 
 [Client-side '<scripts>' in Astro](https://docs.astro.build/en/guides/client-side-scripts/)
