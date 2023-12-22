@@ -107,3 +107,13 @@ Like components located outside of this folder, these files do not automatically
 [Introduction to YAML](https://dev.to/paulasantamaria/introduction-to-yaml-125f)
 
 [Nesting Layouts in Astro](https://docs.astro.build/en/core-concepts/layouts/#nesting-layouts)
+
+[`Astro.glob()` API Documentation](https://docs.astro.build/en/reference/api-reference/#astroglob)
+
+[Dynamic Page Routine in Astro](https://docs.astro.build/en/core-concepts/routing/#dynamic-routes)
+
+[`getStaticPaths()` API Documentaiton](https://docs.astro.build/en/reference/api-reference/#getstaticpaths)
+
+[Static Routing in Astro](https://docs.astro.build/en/core-concepts/routing/#static-routes)
+
+[RSS item generation in Astro](https://docs.astro.build/en/guides/rss/#using-glob-imports)

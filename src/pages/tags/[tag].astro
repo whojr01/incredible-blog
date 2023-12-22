@@ -1,0 +1,56 @@
+---
+import Baselayout from "../../layouts/Baselayout.astro";
+import Blogpost from "../../components/Blog-post-list.astro";
+export async function getStaticPaths() {
+  const allPosts = await Astro.glob("../posts/*.md");
+
+  // Build a list of all the tags used in blog posts
+  const uniqueTags = [
+    ...new Set(allPosts.map((post) => post.frontmatter.tags).flat()),
+  ];
+
+  return uniqueTags.map((tag) => {
+    const filteredPosts = allPosts.filter((post) =>
+      post.frontmatter.tags.includes(tag),
+    );
+
+    return {
+      params: { tag },
+      props: { posts: filteredPosts },
+    };
+  });
+
+  // This was the original code shows how to define params and props
+  // return [
+  //   { params: { tag: "astro" }, props: { posts: allPosts } },
+  //   { params: { tag: "successes" }, props: { posts: allPosts } },
+  //   { params: { tag: "community" }, props: { posts: allPosts } },
+  //   { params: { tag: "blogging" }, props: { posts: allPosts } },
+  //   { params: { tag: "setbacks" }, props: { posts: allPosts } },
+  //   { params: { tag: "whojr" }, props: { posts: allPosts } },
+  //   { params: { tag: "learning in public" }, props: { posts: allPosts } },
+  // ];
+}
+
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+// Filter list of posts to only include posts that contain the page's own tag.
+// const filteredPosts = posts.filter((post) =>
+//   post.frontmatter.tags?.includes(tag),
+// );
+---
+
+<!-- http://localhost:4321/tags/setbacks -->
+<Baselayout pageTitle={tag}>
+  <p>Posts tagged with {tag}</p>
+  <ul>
+    {
+      // filteredPosts.map((post) => (
+      //   <Blogpost url={posts.url} title={post.frontmatter.title} />
+      // ))
+      posts.map((post) => (
+        <Blogpost url={posts.url} title={post.frontmatter.title} />
+      ))
+    }
+  </ul>
+</Baselayout>
