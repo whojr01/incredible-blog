@@ -66,6 +66,12 @@ Like components located outside of this folder, these files do not automatically
 
 ## Astro References
 
+### Create and deploy your first Astro Site
+
+[FreeCodeCamp.org](https://freecodecamp.org/)
+
+[Using Git Source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview#_git-support)
+
 [Astro Routing](https://docs.astro.build/en/core-concepts/astro-pages/#file-based-routing)
 
 [Markdown Cheat Sheet from The Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
@@ -117,3 +123,11 @@ Like components located outside of this folder, these files do not automatically
 [Static Routing in Astro](https://docs.astro.build/en/core-concepts/routing/#static-routes)
 
 [RSS item generation in Astro](https://docs.astro.build/en/guides/rss/#using-glob-imports)
+
+[Astro Integrations Guide](https://docs.astro.build/en/guides/integrations-guide/)
+
+[Using UI Framework Components in Astro](https://docs.astro.build/en/core-concepts/framework-components/#using-framework-components)
+
+[Astro client directives reference](https://docs.astro.build/en/reference/directives-reference/#client-directives)
+
+[Client-side '<scripts>' in Astro](https://docs.astro.build/en/guides/client-side-scripts/)

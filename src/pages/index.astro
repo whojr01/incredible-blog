@@ -1,12 +1,19 @@
 ---
 import Baselayout from "../layouts/Baselayout.astro";
+import Greeting from "../components/Greeting.jsx";
+
 const pageTitle = "Bill's Foo bar Incredible Blog Home";
 ---
 
 <Baselayout pageTitle={pageTitle}>
   <h2>Bill's Incredible Blog Home</h2>
 
+  <Greeting
+    client:load
+    messages={["Hi", "Hello", "Howdy", "Hey, Hey, Hey..."]}
+  />
   <p>Here you will find the most incredible things in the whole wide world.</p>
+
   <p>
     Whether you understand the jibberish is another story but you will find it
     here.
